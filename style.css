@@ -6,12 +6,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
-body{
-    width: 100vh;
-    height: auto;
+.background-foto{
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url(./img/background-foto.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
-
 .navbar{
     width: 100vw;
     height: 8vh;
@@ -37,13 +38,8 @@ body{
     color: white;
 }
 
-header{
+main{
+    width: 100%;
     height: 100vh;
-    min-height: 800px;
-    background-image: url(./img/foto_jessyca_background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
+    background-color: black;
 }
