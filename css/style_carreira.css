@@ -60,15 +60,15 @@ main{
     padding: 1%;
     border-radius: 1rem;
 }
-.conteudo-principal-atuacaoprofissional h1, .conteudo-principal-projetopesquisa h1, .conteudo-principal-projetoextensao h1{
+.conteudo-principal-atuacaoprofissional h1, .conteudo-principal-projetopesquisa h1, .conteudo-principal-projetoextensao h1, .conteudo-principal-idioma h1{
     font-size: clamp(20px, 2rem, 3rem);
 }
-.conteudo-principal-atuacaoprofissional dl dt, .conteudo-principal-projetopesquisa dl dt, .conteudo-principal-projetoextensao dl dt{
+.conteudo-principal-atuacaoprofissional dl dt, .conteudo-principal-projetopesquisa dl dt, .conteudo-principal-projetoextensao dl dt, .conteudo-principal-idioma dl dt{
     margin: 2.5% 0 0 3%;
     font-weight: bold;
     font-size: clamp(15px, 1.5rem, 2rem);
 }
-.conteudo-principal-atuacaoprofissional dl dd, .conteudo-principal-projetopesquisa dl dd, .conteudo-principal-projetoextensao dl dd{
+.conteudo-principal-atuacaoprofissional dl dd, .conteudo-principal-projetopesquisa dl dd, .conteudo-principal-projetoextensao dl dd, .conteudo-principal-idioma dl dd{
     margin: 0.5% 0 0 9%;
     /* font-size: calc(1.25rem + 0.1vw); */
     font-size: clamp(13px, 1.25rem, 1.75rem);
